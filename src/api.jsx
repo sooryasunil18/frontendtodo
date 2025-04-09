@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000", // Change this to your backend URL if deployed
+  baseURL: "https://backendtodo-qulx.onrender.com", // Change this to your backend URL if deployed
   headers: {
     "Content-Type": "application/json",
   },
